@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Kampala Business Center",
+        "address": "Plot 12 Kampala Road, Kampala, Uganda",
+        "phone": "+256 700 111 001",
+        "website": "https://blackacetechnology.com/insights/local-seo-kampala/?srsltid=AfmBOoocMJhnwvzbsMTE6xyh70kC29SQqYFbOHOp9gahdhL1EGN_lCY1",
+        "image": "kampala-business.webp",
+        "membership": 3,
+        "description": "Business consulting and professional services for growing companies."
+    },
+    {
+        "name": "Pearl Consulting Uganda",
+        "address": "Plot 25 Nakasero Road, Kampala, Uganda",
+        "phone": "+256 700 111 002",
+        "website": "https://x.com/CEOEastAfrica/status/1990956509761597865",
+        "image": "pearl-business.jpg",
+        "membership": 2,
+        "description": "Business advisory and management consulting services."
+    },
+    {
+        "name": "Uganda Technology Solutions",
+        "address": "Plot 8 Jinja Road, Kampala, Uganda",
+        "phone": "+256 700 111 003",
+        "website": "https://ug.linkedin.com/company/uganda-telecommunications-corporation-limited",
+        "image": "uganda-telecom.jpg",
+        "membership": 3,
+        "description": "Technology solutions and digital services for local businesses."
+    },
+    {
+        "name": "Kampala Fresh Foods",
+        "address": "Plot 18 Kalerwe Market, Kampala, Uganda",
+        "phone": "+256 700 111 004",
+        "website": "https://observer.ug/news/ministry-to-help-nakumatt-staff-recover-shs-500m-sacco-savings/",
+        "image": "nakumatt-business.jpg",
+        "membership": 1,
+        "description": "Local food supplier providing fresh products to businesses and families."
+    },
+    {
+        "name": "Central City Restaurant",
+        "address": "Plot 31 Buganda Road, Kampala, Uganda",
+        "phone": "+256 700 111 005",
+        "website": "https://luxurywatchgroup.co.uk/the-perfect-watches-for-business-professionals/?srsltid=AfmBOorZxWb_CzwNE-H8Or9JwalHjqLXQv_0gETLAucX5uyQ1ZmETaxW",
+        "image": "rolex-business.jpg",
+        "membership": 1,
+        "description": "Restaurant providing local and international meals in central Kampala."
+    },
+    {
+        "name": "Nile Financial Services",
+        "address": "Plot 44 Yusuf Lule Road, Kampala, Uganda",
+        "phone": "+256 700 111 006",
+        "website": "https://blog.estatebook.com/nile-experiment/",
+        "image": "nile-business.jpg",
+        "membership": 2,
+        "description": "Financial and business support services for entrepreneurs."
+    },
+    {
+        "name": "City Logistics Uganda",
+        "address": "Plot 17 Industrial Area, Kampala, Uganda",
+        "phone": "+256 700 111 007",
+        "website": "https://www.magnific.com/photos/city-business-building",
+        "image": "city-business.avif",
+        "membership": 3,
+        "description": "Transportation and logistics services for businesses in Kampala."
+    },
+    {
+        "name": "Kampala Creative Studio",
+        "address": "Plot 6 Acacia Avenue, Kampala, Uganda",
+        "phone": "+256 700 111 008",
+        "website": "https://www.magnific.com/free-photos-vectors/creative-business",
+        "image": "creative-business.jpg",
+        "membership": 2,
+        "description": "Creative design, branding, and digital marketing services."
+    }
+]
