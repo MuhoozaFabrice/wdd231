@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+<title id="title">Nile Financial Services</title><desc id="desc">Kampala Business Chamber member</desc>
+<rect width="600" height="300" rx="24" fill="#f8f9f5"/><circle cx="100" cy="150" r="65" fill="#12372a"/>
+<path d="M70 165h60v-55h-18V90H88v20H70z" fill="#d99b2b"/><rect x="88" y="142" width="24" height="23" fill="#fff"/>
+<text x="185" y="135" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#12372a">Nile Financial Services</text>
+<text x="185" y="175" font-family="Arial,sans-serif" font-size="18" fill="#436850">Kampala Business Chamber member</text></svg>

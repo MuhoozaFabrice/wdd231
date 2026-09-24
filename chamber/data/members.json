@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Kampala Business Center",
+    "address": "Plot 12 Kampala Road, Kampala, Uganda",
+    "phone": "+256 700 111 001",
+    "website": "https://example.com",
+    "image": "kampala-business.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Pearl Consulting Uganda",
+    "address": "Plot 25 Nakasero Road, Kampala, Uganda",
+    "phone": "+256 700 111 002",
+    "website": "https://example.com",
+    "image": "pearl-business.svg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Uganda Technology Solutions",
+    "address": "Plot 8 Jinja Road, Kampala, Uganda",
+    "phone": "+256 700 111 003",
+    "website": "https://example.com",
+    "image": "uganda-telecom.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Kampala Fresh Foods",
+    "address": "Plot 18 Kalerwe Market, Kampala, Uganda",
+    "phone": "+256 700 111 004",
+    "website": "https://example.com",
+    "image": "nakumatt-business.svg",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Central City Restaurant",
+    "address": "Plot 31 Buganda Road, Kampala, Uganda",
+    "phone": "+256 700 111 005",
+    "website": "https://example.com",
+    "image": "rolex-business.svg",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Nile Financial Services",
+    "address": "Plot 44 Yusuf Lule Road, Kampala, Uganda",
+    "phone": "+256 700 111 006",
+    "website": "https://example.com",
+    "image": "nile-business.svg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "City Logistics Uganda",
+    "address": "Plot 17 Industrial Area, Kampala, Uganda",
+    "phone": "+256 700 111 007",
+    "website": "https://example.com",
+    "image": "city-business.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Kampala Creative Studio",
+    "address": "Plot 6 Acacia Avenue, Kampala, Uganda",
+    "phone": "+256 700 111 008",
+    "website": "https://example.com",
+    "image": "creative-business.svg",
+    "membershipLevel": 2
+  }
+]

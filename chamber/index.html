@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kampala Business Chamber home page connecting local businesses, events, and community opportunities in Kampala, Uganda.">
+    <meta name="author" content="Fabrice Muhooza">
+    <meta property="og:title" content="Kampala Business Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Connect with businesses and opportunities through the Kampala Business Chamber.">
+    <meta property="og:image" content="images/hero-kampala.svg">
+    <title>Kampala Business Chamber | Home</title>
+    <link rel="icon" href="images/chamber-logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="brand">
+        <img src="images/chamber-logo.svg" alt="Kampala Business Chamber logo" width="48" height="48">
+        <div>
+            <span class="brand-name">Kampala Business Chamber</span>
+            <span class="brand-tagline">Connect • Grow • Prosper</span>
+        </div>
+    </div>
+    <button id="menuButton" class="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav id="mainNav" class="navigation" aria-label="Main navigation">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Kampala Business Chamber</h1>
+
+    <section class="hero" aria-labelledby="hero-title">
+        <img src="images/hero-kampala.svg" alt="Kampala city skyline representing local business and community" width="1200" height="500">
+        <div class="hero-content">
+            <h2 id="hero-title">Build Business in Kampala</h2>
+            <p>Connect with local businesses, discover opportunities, and grow together.</p>
+            <a class="cta" href="join.html">Join the Chamber</a>
+        </div>
+    </section>
+
+    <div class="home-layout">
+        <section class="events card" aria-labelledby="events-title">
+            <h2 id="events-title">Current Events</h2>
+            <article class="event">
+                <h3>Business Networking Morning</h3>
+                <p><strong>September 28, 2026</strong> • 9:00 AM</p>
+                <p>Meet local entrepreneurs and share ideas for growing businesses in Kampala.</p>
+            </article>
+            <article class="event">
+                <h3>Small Business Skills Workshop</h3>
+                <p><strong>October 3, 2026</strong> • 2:00 PM</p>
+                <p>A practical session on digital tools, customer service, and business visibility.</p>
+            </article>
+        </section>
+
+        <section class="weather card" aria-labelledby="weather-title">
+            <h2 id="weather-title">Kampala Weather</h2>
+            <div id="currentWeather" class="current-weather">
+                <p>Loading current weather...</p>
+            </div>
+            <h3>3-Day Forecast</h3>
+            <div id="forecast" class="forecast">
+                <p>Loading forecast...</p>
+            </div>
+            <p class="weather-source">Weather data provided by <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap</a>.</p>
+        </section>
+    </div>
+
+    <section class="spotlights-section" aria-labelledby="spotlights-title">
+        <h2 id="spotlights-title">Member Spotlights</h2>
+        <div id="spotlights" class="spotlights">
+            <p>Loading member spotlights...</p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div>
+        <h2>Kampala Business Chamber</h2>
+        <p>Plot 12 Kampala Road, Kampala, Uganda</p>
+        <p>Phone: +256 700 111 001</p>
+    </div>
+    <div>
+        <p>WDD 231 Chamber Project</p>
+        <p>&copy; <span id="currentyear"></span> Fabrice Muhooza | Uganda</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </div>
+</footer>
+</body>
+</html>
