@@ -1,0 +1,45 @@
+@media screen and (min-width: 640px) {
+
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        margin-left: auto;
+    }
+
+    nav a {
+        padding: 0.7rem 1rem;
+        border-radius: 4px;
+    }
+
+    .directory-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .member-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .member-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .page-heading {
+        padding: 3rem 1rem;
+    }
+}

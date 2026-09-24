@@ -1,0 +1,248 @@
+:root {
+    --primary-color: #12372A;
+    --secondary-color: #436850;
+    --background-color: #F8F9F5;
+    --card-color: #FFFFFF;
+    --text-color: #172117;
+    --border-color: #C9D1C9;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.brand-icon {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.brand strong {
+    display: block;
+    font-size: 1.1rem;
+}
+
+.brand small {
+    display: block;
+    font-size: 0.75rem;
+}
+
+/* MOBILE MENU */
+
+.menu-button {
+    background: transparent;
+    color: white;
+    border: 0;
+    font-size: 1.8rem;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: var(--secondary-color);
+}
+
+/* PAGE HEADING */
+
+.page-heading {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.page-heading h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.page-heading p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* DIRECTORY */
+
+.directory-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem;
+}
+
+.directory-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.directory-header h2 {
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+.view-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.view-button {
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+}
+
+.view-button:hover,
+.view-button.active-view {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* MEMBER GRID */
+
+.member-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.member-card {
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.member-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.member-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.member-card p {
+    margin-bottom: 0.4rem;
+}
+
+.member-card a {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.membership {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.footer-content h2 {
+    font-size: 1.1rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin-bottom: 0.5rem;
+}
+
+/* LIST VIEW */
+
+.member-grid.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.member-grid.list-view .member-card {
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid var(--border-color);
+    display: block;
+}
+
+.member-grid.list-view .member-card img {
+    display: none;
+}
+
+.member-grid.list-view .membership {
+    display: none;
+}

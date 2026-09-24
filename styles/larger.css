@@ -1,0 +1,32 @@
+@media screen and (min-width: 700px) {
+    header {
+        grid-template-columns: auto 1fr;
+        padding: 1rem max(1rem, calc((100% - 1200px) / 2));
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .navigation {
+        grid-column: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .home-grid {
+        grid-template-columns: 2fr 1fr;
+        align-items: stretch;
+    }
+
+    .about,
+    .student {
+        min-height: 250px;
+    }
+
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
